@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+	#output {
+       -webkit-animation: rotation 2s linear infinite;
+	}
+	@-webkit-keyframes rotation {
+		from {
+			-webkit-transform: rotate(0deg);
+            -webkit-transform-origin: center center;
+		}
+		to {
+			-webkit-transform: rotate(360deg); 
+            -webkit-transform-origin: center center;
+		}
+	}
+</style>
+</head>
+<body>
+  <div style="padding: 200px;">
+    <img src="output.png" id="output" alt=""/>
+  </div>
+</body>
+</html>
